@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Projects.css";
 import Carousel from "react-bootstrap/Carousel";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import probloomImage from "../assets/Probloom.jpg";
+import probloomImage from "../assets/Probloom.png";
 import replacemeImage from "../assets/replaceme.png";
 
 const spotlightProjects = {
