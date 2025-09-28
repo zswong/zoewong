@@ -2,7 +2,7 @@
 This is the first iteration of my personal portfolio website. 
 
 ## 🔗 Live Demo  
-👉 [Visit Portfolio](https://zswong.github.io/zoewong)
+[https://zswong.github.io/zoewong](https://zswong.github.io/zoewong)
 
-![My Portfolio Screenshot](assets/portfolio.png)
+![Portfolio Screenshot](public/assets/portfolio.png)
 
