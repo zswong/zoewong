@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/zoewong/static/css/main.b399262e.css",
-    "main.js": "/zoewong/static/js/main.beae9170.js",
+    "main.js": "/zoewong/static/js/main.c70c8ad7.js",
     "static/js/453.5bc96865.chunk.js": "/zoewong/static/js/453.5bc96865.chunk.js",
     "index.html": "/zoewong/index.html",
     "main.b399262e.css.map": "/zoewong/static/css/main.b399262e.css.map",
-    "main.beae9170.js.map": "/zoewong/static/js/main.beae9170.js.map",
+    "main.c70c8ad7.js.map": "/zoewong/static/js/main.c70c8ad7.js.map",
     "453.5bc96865.chunk.js.map": "/zoewong/static/js/453.5bc96865.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b399262e.css",
-    "static/js/main.beae9170.js"
+    "static/js/main.c70c8ad7.js"
   ]
 }
