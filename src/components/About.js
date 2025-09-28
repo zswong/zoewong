@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/About.css"
 import { Typewriter } from 'react-simple-typewriter';
-
+import Me from "../assets/me.jpg";
 
 const About = () =>{
     return(
@@ -26,7 +26,7 @@ const About = () =>{
                     Outside of school, I love spending time at the gym, traveling to new places, capturing life through photography, exploring new hobbies, and sharing good food or a cup of matcha with friends and family.
                 </p>
                 <div className="about-image">
-                    <img src={`${process.env.PUBLIC_URL}/assets/me.jpg`} alt="Zoe Wong" />
+                    <img src= {Me} alt="Zoe Wong" />
                 </div>
             </div>
         </div>

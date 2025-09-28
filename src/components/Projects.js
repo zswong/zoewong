@@ -2,6 +2,8 @@ import React from "react";
 import "../styles/Projects.css";
 import Carousel from "react-bootstrap/Carousel";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import probloomImage from "../assets/Probloom.jpg";
+import replacemeImage from "../assets/replaceme.png";
 
 const spotlightProjects = {
     "Probloom": {
@@ -10,7 +12,7 @@ const spotlightProjects = {
       techStack: "Javascript, React.js",
       link: "https://github.com/Awesomedonut/Practice-Problem-Generator",
       open: "https://github.com/Awesomedonut/Practice-Problem-Generator",
-      image: `${process.env.PUBLIC_URL}/assets/probloom.jpg`
+      image: probloomImage
     },
     "ReplaceMe": {
         title: "ReplaceMe",
@@ -18,7 +20,7 @@ const spotlightProjects = {
         techStack: "Javascript, React.js",
         link: "",
         open: "",
-        image: `${process.env.PUBLIC_URL}/assets/replaceme.png`
+        image: replacemeImage
       },
 };
 
