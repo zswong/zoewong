@@ -26,7 +26,7 @@ const About = () =>{
                     Outside of school, I love spending time at the gym, traveling to new places, capturing life through photography, exploring new hobbies, and sharing good food or a cup of matcha with friends and family.
                 </p>
                 <div className="about-image">
-                    <img alt="Zoe Wong" src={"/assets/me.jpg"} />
+                    <img src={`${process.env.PUBLIC_URL}/assets/me.jpg`} alt="Zoe Wong" />
                 </div>
             </div>
         </div>

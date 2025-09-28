@@ -10,7 +10,7 @@ const spotlightProjects = {
       techStack: "Javascript, React.js",
       link: "https://github.com/Awesomedonut/Practice-Problem-Generator",
       open: "https://github.com/Awesomedonut/Practice-Problem-Generator",
-      image: "/assets/Probloom.jpg"
+      image: `${process.env.PUBLIC_URL}/assets/probloom.jpg`
     },
     "ReplaceMe": {
         title: "ReplaceMe",
@@ -18,7 +18,7 @@ const spotlightProjects = {
         techStack: "Javascript, React.js",
         link: "",
         open: "",
-        image: "/assets/replaceme.png"
+        image: `${process.env.PUBLIC_URL}/assets/replaceme.png`
       },
 };
 
