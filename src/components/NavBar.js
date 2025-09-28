@@ -6,7 +6,7 @@ import "../styles/NavBar.css";
 
 const NavBar = () => {
     return (
-      <nav className="navbar">
+      <nav id="navbar">
         <div className="navbar-left">
           <a href="#" className="name">Zoe Wong</a>
           <a href="#intro">Home</a>

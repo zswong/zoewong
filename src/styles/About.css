@@ -52,7 +52,7 @@
   }
   
 .about-image:hover {
-transform: translateY(-7px);
+    transform: translateY(-6px);
 }
 
 @media only screen and (max-width: 600px) {
