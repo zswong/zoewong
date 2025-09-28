@@ -15,13 +15,13 @@ const NavBar = () => {
         </div>
         <div className="navbar-right">
           <a href="mailto:zoelevelup@gmail.com">
-            <EmailRoundedIcon style={{ fontSize: 20 }} />
+            <EmailRoundedIcon style={{ fontSize: 21 }} />
           </a>
           <a href="https://github.com/zswong" target="_blank">
-            <GitHubIcon style={{ fontSize: 19 }} />
+            <GitHubIcon style={{ fontSize: 21 }} />
           </a>
           <a href="https://www.linkedin.com/in/zoe-wong-567674236/" target="_blank">
-            <LinkedInIcon style={{ fontSize: 21 }} />
+            <LinkedInIcon style={{ fontSize: 22 }} />
           </a>
         </div>
       </nav>

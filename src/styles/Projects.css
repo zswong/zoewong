@@ -1,0 +1,90 @@
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    max-width: 2000px;
+    min-height: 100vh;
+    color: #8892b0;
+    font-family: "Varela Round", sans-serif;
+  }
+
+
+.title{
+    color: #f2f2f2;
+    font-family: "Varela Round", sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    font-style: normal;
+    text-align:left;
+    padding-bottom: 12px;
+}
+
+.carousel-wrapper {
+    max-width: 1000px;
+    margin: 50px auto;
+    border-radius: 80px;
+    padding-bottom: 50px;
+  
+}
+
+.carousel-caption-bg {
+padding: 20px;
+border-radius: 50px;
+margin-bottom: 5px;
+}
+
+.carousel-title {
+color: #8892b0;
+margin-bottom: 10px;
+font-family: "Varela Round", sans-serif;
+}
+
+.carousel-desc {
+color: #8892b0;
+font-size: 16px;
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+.carousel-tech {
+color: #8892b0;
+font-size: 14px;
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+.carousel-link {
+    margin-right: 10px;
+    color: #00ccff;
+    text-decoration: none;
+}
+
+.carousel-link:hover {
+    color: #00ccff;
+    text-decoration: underline;
+}
+
+.carousel-item img {
+    max-height: 800px;
+
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.carousel-inner:hover {
+    transform: scale(1.015);
+  }
+
+
+@media only screen and (max-width: 600px) {
+    #projects {
+      height: unset;
+      padding-left: unset;
+      padding-right: unset;
+    }
+    .carousel {
+      display: none;
+    }
+  }

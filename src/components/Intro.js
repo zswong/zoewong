@@ -5,14 +5,28 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 const Intro = () => {
 
     const [text] = useTypewriter({
-        words:[ "hi there, I'm Zoe Wong."],
+        words:[ "hi there, I'm Zoe Wong"],
         loop: 1,
         })
+
 
     return (
         <div id = "intro">
             <div className = "intro-title"> 
-                <span>{text}</span>
+            <span>
+                {text.includes("Zoe Wong") ? (
+                    <>
+                    hi there, I'm{" "}
+                    <span style={{ color: "#00ccff", fontWeight: "bold" }}>
+                        Zoe Wong
+                    </span>
+                    </>
+                ) : (
+                    text
+                )}
+                </span>
+                
+                
                 {<Cursor cursorColor={'white'} />}
             </div>
             <div className = "intro-subtitle">I build things.</div>

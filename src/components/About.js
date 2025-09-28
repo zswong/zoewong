@@ -11,18 +11,19 @@ const About = () =>{
             </div>
             <div className = "about-description">
                 <p>
-                    I am currently a forth year Computer Science at
-                    Simon Fraser University. 
+                I am currently a fourth year Computer Science student at Simon Fraser University, minoring in Statistics, with a passion for finance and developing projects that deliver meaningful impact. I also enjoy learning new things and exploring emerging technologies.
                 </p>
-                {"Technologies I work with include:"}
+                {"A few technologies I work with include:"}
                 <ul className="tech-stack">
                     <li> ❖ Python</li>
                     <li> ❖ C/C++</li>
                     <li> ❖ React.js</li>
                     <li> ❖ Javascript</li>
+                    <li> ❖ HTML/CSS</li>
+                    <li> ❖ Typescript</li>
                 </ul>
                 <p>
-                    When I'm not in school, I enjoy going to the gym, finding a new hobby to dive into, or spending time with friends and family over good food or a cup of matcha.
+                    Outside of school, I love spending time at the gym, traveling to new places, capturing life through photography, exploring new hobbies, and sharing good food or a cup of matcha with friends and family.
                 </p>
                 <div className="about-image">
                     <img alt="Zoe Wong" src={"/assets/me.jpg"} />
