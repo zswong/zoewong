@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Projects.css";
 import Carousel from "react-bootstrap/Carousel";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import probloomImage from "../assets/Probloom.png";
+import probloomImage from "../assets/probloom.png";
 import replacemeImage from "../assets/replaceme.png";
 
 const spotlightProjects = {
@@ -27,6 +27,7 @@ const spotlightProjects = {
 const Projects = () => {
     return (
         <div id="projects">
+
             <div className="carousel-wrapper">
                 <div className= "title">
                     / projects
