@@ -16,7 +16,7 @@ const spotlightProjects = {
     },
     "ReplaceMe": {
         title: "ReplaceMe",
-        desc: "Okay",
+        desc: "",
         techStack: "Javascript, React.js",
         link: "",
         open: "",
